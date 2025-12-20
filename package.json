@@ -1,0 +1,27 @@
+{
+	"name": "obsidian-file-spawner",
+	"version": "1.0.0",
+	"description": "A friction-free utility to spawn any file type and automatically embed it into your current note.",
+	"main": "main.js",
+	"scripts": {
+		"dev": "node esbuild.config.mjs",
+		"build": "node esbuild.config.mjs production",
+		"version": "node version-bump.mjs && git add manifest.json versions.json",
+		"zip": "bestzip obsidian-file-spawner.zip main.js manifest.json"
+	},
+	"keywords": [
+		"obsidian",
+		"obsidian-plugin"
+	],
+	"author": "Helalsoft",
+	"license": "MIT",
+	"devDependencies": {
+		"@types/node": "^16.11.21",
+		"bestzip": "^2.2.1",
+		"builtin-modules": "^3.2.0",
+		"esbuild": "0.14.47",
+		"obsidian": "latest",
+		"tslib": "2.3.1",
+		"typescript": "4.5.4"
+	}
+}

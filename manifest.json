@@ -1,0 +1,10 @@
+{
+	"id": "file-spawner",
+	"name": "File Spawner",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "A friction-free utility to spawn any file type and automatically embed it into your current note.",
+	"author": "Helalsoft",
+	"authorUrl": "https://github.com/helalsoft",
+	"isDesktopOnly": false
+}
